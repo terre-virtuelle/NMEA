@@ -1,0 +1,16 @@
+{
+  "name": "nmea",
+  "version": "1.0.0",
+  "description": "Parser des phrases NMEA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serge",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.13.1",
+    "gregorian-calendar": "^4.1.6"
+  },
+  "type": "module"
+}
