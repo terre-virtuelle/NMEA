@@ -16,8 +16,7 @@ createServer((req, res) => {
 
     var input;
     try {
-       // input = fs.readFileSync('./nmea.txt', 'utf8');
-        input = fs.readFileSync('./TramesVirvoiles.txt', 'utf8');
+        input = fs.readFileSync('./nmea.txt', 'utf8');
     } catch (err) {
         console.error(err);
     }
